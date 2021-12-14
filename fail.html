@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="http://127.0.0.1:5500/index.html" id="navbar__logo">LOME BENCHMARK</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span> <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/index.html" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/index.html" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="http://127.0.0.1:5500/index.html" class="navbar__links" id="services-page">Services</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-in" class="button" id="signin">Sign In</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="tile__container">
+
+        <h1 class="level" id="gameTitle">Sequence Memory</h1>
+        <h1 class="level" id="levelReached">Level: 1</h1>
+        <button class="button" id="retry" onclick="retryButton()">Try Again</button>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

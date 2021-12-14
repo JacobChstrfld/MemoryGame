@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">LOME BENCHMARK</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page">Services</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-in" class="button" id="signin">Sign In</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  
+    <div class="tile__container">
+        <label id="sequence_label" for="sequence">Sequence:</label>
+        <form class="form" id="form" action="">
+          <input type="text" id="sequence" name="sequence" autofocus="autofocus"><br><br>
+          <input class="button2" id="submitButton" type="submit" value="Submit">
+        </form>
+      <h1  class="level" id="levelField">Level: 1</h1>
+      <div class="tiles__container">
+        <div class="tile__row">
+          <div class="tiles" unselectable="on" id="1" >
+            1
+          </div>
+          <div class="tiles" unselectable="on" id="2">
+            2
+          </div>
+          <div class="tiles" unselectable="on" id="3"> 
+            3
+          </div>
+        </div>
+        <div class="tile__row">
+          <div class="tiles" id="4">
+            4
+          </div>
+          <div class="tiles" id="5">
+            5
+          </div>
+          <div class="tiles" id="6">
+            6
+          </div>
+        </div>
+        <div class="tile__row" >
+          <div class="tiles" id="7">
+            7
+          </div>
+          <div class="tiles" id="8">
+            8
+          </div>
+          <div class="tiles" id="9">
+            9
+          </div>
+        </div>
+        <div class="tile__row">
+          <div class="tiles" id="0">
+            0
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+   
+
+    <script src="app.js"></script>
+  </body>
+</html>
